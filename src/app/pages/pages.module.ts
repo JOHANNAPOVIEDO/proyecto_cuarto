@@ -8,6 +8,7 @@ import { ProductComponent } from './product/product.component';
 import { HomeComponent } from './home/home.component';
 import { StaticModule } from '../static/static.module';
 import { PagesComponent } from './pages.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -19,6 +20,8 @@ import { PagesComponent } from './pages.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
+
+    
    
     
 
@@ -36,7 +39,10 @@ import { PagesComponent } from './pages.component';
   ],
   imports: [
     CommonModule,
-    StaticModule
+    StaticModule,
+    RouterModule,
+  
+
   ]
 })
 export class PagesModule { }

@@ -25,8 +25,8 @@ import { NotfoundModule } from './notfound/notfound.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PagesModule,
     AuthModule,
+    PagesModule,
     StaticModule,
     NotfoundModule
     

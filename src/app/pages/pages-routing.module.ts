@@ -31,7 +31,9 @@ const routes: Routes = [
   },
 ]
 @NgModule({
-  declarations: [],
+  declarations: [
+    RouterModule,
+  ],
   imports: [
     CommonModule,
     StaticModule,
