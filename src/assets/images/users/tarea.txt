@@ -1,0 +1,7 @@
+ng g m auth/auth --flat
+ng g m auth/authRouting --flat
+
+ng g m notfound/notfound --flat
+ng g m notfound/notfoundRouting --flat
+
+cambiar path primero que login
