@@ -10,21 +10,11 @@ import { NotfoundRoutingModule } from './notfound/notfound-routing.module';
 
 
 const routes: Routes = [
-  {   path: '', redirectTo: '/dashboard', pathMatch:'full' },
-  {
-    path: 'login',
-    component: LoginComponent,
-  },
-  {
-    path: 'register',
-    component: RegisterComponent,
-  },
-  {
-    path: '**',
-    component: NotfoundComponent,
-  }, 
-  //rutas protegidas
   
+  {path: '', redirectTo:'/dashboard', pathMatch:'full'},//ruta por defecto
+ 
+
+
 ];
 //routermodule.forRoot :especifica las rutas principales
 @NgModule({
