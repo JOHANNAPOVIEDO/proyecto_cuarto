@@ -38,9 +38,14 @@ const routes: Routes = [
 ]
 @NgModule({
   declarations: [
+<<<<<<< HEAD
 
   ],
   
+=======
+    RouterModule,
+  ],
+>>>>>>> 998aa96ee794646e24dba31fcaee79e9c613d93b
   imports: [
     CommonModule,
     StaticModule,
