@@ -21,13 +21,7 @@ import { RouterModule } from '@angular/router';
     AboutComponent,
     ContactComponent,
 
-<<<<<<< HEAD
 
-=======
-    
-   
-    
->>>>>>> 998aa96ee794646e24dba31fcaee79e9c613d93b
 
   ],
   exports:[
@@ -43,15 +37,7 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    StaticModule,
-<<<<<<< HEAD
-    RouterModule
-    
-=======
-    RouterModule,
-  
-
->>>>>>> 998aa96ee794646e24dba31fcaee79e9c613d93b
+    StaticModule
   ]
 })
-export class PagesModule { }
+export class PagesModule {}

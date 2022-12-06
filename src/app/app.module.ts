@@ -11,6 +11,7 @@ import { StaticModule } from './static/static.module';
 import { StaticComponent } from './static/static.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { NotfoundModule } from './notfound/notfound.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -32,13 +33,11 @@ import { NotfoundModule } from './notfound/notfound.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AuthModule,
     PagesModule,
+    AuthModule,
     StaticModule,
-    NotfoundModule
-    
-
-
+    NotfoundModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
