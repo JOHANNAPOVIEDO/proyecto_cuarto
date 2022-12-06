@@ -12,10 +12,10 @@ export class ProductComponent implements OnInit {
   constructor(private httpClient: HttpClient) {}//Inyeccion de dependencia
 
   ngOnInit(): void {
-    this.getProduct();
-    this.getProducts();
-    this.createProduct();
-    this.updateProduct();
+    //this.getProduct();
+    //this.getProducts();
+    //this.createProduct();
+    //this.updateProduct();
     this.deleteProduct();
   }
   getProducts() {
@@ -42,7 +42,7 @@ export class ProductComponent implements OnInit {
       category: 1,
       images: ['https://api.lorem.space/image/shoes?w=640&h=480&r=8318'],
     };
-    const url = 'https://api.escuelajs.co/api/v1/products/12';
+    const url = 'https://api.escuelajs.co/api/v1/products';
     this.httpClient.post(url, data).subscribe(
       response => {
       console.log(response);
